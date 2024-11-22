@@ -23,7 +23,7 @@ public class RadioTest {
 
     @Test
     public void testSetStationInvalidHigh() {
-        radio.setCurrentStation(11);
+        radio.setCurrentStation(10);
         assertEquals(0, radio.getCurrentStation());
     }
 
