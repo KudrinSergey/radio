@@ -5,7 +5,7 @@ public class Radio {
 
 
     public Radio() {
-        this.numberOfStations = 10;
+        this.numberOfStations = 9;
         this.currentStation = 0;
         this.currentVolume = 0;
     }

@@ -29,9 +29,9 @@ public class RadioTest {
 
     @Test
     public void testNextStation() {
-        radio.setCurrentStation(8);
+        radio.setCurrentStation(7);
         radio.next();
-        assertEquals(9, radio.getCurrentStation());
+        assertEquals(8, radio.getCurrentStation());
         radio.next();
         assertEquals(0, radio.getCurrentStation());
     }
@@ -42,7 +42,7 @@ public class RadioTest {
         radio.prev();
         assertEquals(0, radio.getCurrentStation());
         radio.prev();
-        assertEquals(9, radio.getCurrentStation());
+        assertEquals(8, radio.getCurrentStation());
     }
 
     @Test
