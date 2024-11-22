@@ -22,10 +22,11 @@ public class Radio {
     }
 
     public void setCurrentStation(int station) {
-        if (station >= 0 && station <= numberOfStations) {
+        if (station >= 0 && station < numberOfStations) {
             this.currentStation = station;
         }
     }
+
 
     public void next() {
         if (currentStation == numberOfStations - 1) {
